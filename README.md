@@ -1,1 +1,1 @@
-# 0001
+# 100 days of code - Python edition
