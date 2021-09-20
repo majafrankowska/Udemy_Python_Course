@@ -40,6 +40,22 @@ cat = "".join(cat)
 
 print(cat)
 
+#lub 
+
+cat1 = []
+for x in range (1, nr_letters + 1 ):
+  cat1 += random.choice(letters) 
+for x in range (1, nr_symbols + 1):
+  cat1 += random.choice(symbols)
+for x in range (1, nr_numbers + 1):
+  cat1 += random.choice(numbers) 
+
+random.shuffle(cat1)
+
+cat2 = ""
+for char in cat1:
+ cat2 += char
+print(f"your password is {cat2}")
 
 
 #Eazy level:
