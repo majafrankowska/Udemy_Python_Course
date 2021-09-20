@@ -55,7 +55,7 @@ random.shuffle(cat1)
 cat2 = ""
 for char in cat1:
  cat2 += char
-print(f"your password is {cat2}")
+print(f"your password is: {cat2}")
 
 
 #Eazy level:
